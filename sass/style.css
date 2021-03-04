@@ -11196,6 +11196,24 @@ a.text-dark:hover, a.text-dark:focus {
   padding-left: 1rem;
 }
 
+.img-hover {
+  overflow: hidden;
+}
+
+.img-hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.img-hover img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 body {
   font-family: "inter", cursive;
 }
@@ -11271,5 +11289,42 @@ TECNOLOGY SECTION
 */
 #tech {
   padding: 3rem 0;
+}
+
+#tech .owl-carousel .item .item-title > a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+#tech .owl-carousel .item .item-title > .d-flex > img {
+  width: 30px;
+  margin-right: .5rem;
+}
+
+#tech .owl-carousel .item .item-title > .d-flex > a, #tech .owl-carousel .item .item-title > .d-flex i, #tech .owl-carousel .item .item-title > .d-flex span {
+  padding: .2rem;
+  text-decoration: none;
+  font-size: .9rem;
+}
+
+#tech .owl-carousel .owl-nav {
+  margin-top: 2rem;
+}
+
+#tech .owl-carousel .owl-nav button:focus, #tech .owl-carousel .owl-nav button:hover {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+#tech .owl-carousel .owl-nav button span {
+  background-color: #f8f9fa;
+  padding: .4rem 3rem;
+  border-radius: 3rem;
+}
+
+#tech .owl-carousel .owl-nav button span:hover {
+  background-color: #343a40;
 }
 /*# sourceMappingURL=style.css.map */

@@ -11161,4 +11161,9 @@ a.text-dark:hover, a.text-dark:focus {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
 }
+
+/* TEMPLATES */
+#header .navbar .collapse .nav-item {
+  padding: 0.4rem;
+}
 /*# sourceMappingURL=style.css.map */

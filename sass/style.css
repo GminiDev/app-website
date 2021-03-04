@@ -11185,6 +11185,12 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 3rem;
 }
 
+@media screen and (min-width: 992px) {
+  .width-lg-50 {
+    width: 200px;
+  }
+}
+
 body {
   font-family: "inter", cursive;
 }
@@ -11199,5 +11205,57 @@ body {
 
 #header .navbar .collapse .nav-item {
   padding: 0.4rem;
+}
+
+#header .navbar .collapse .nav-item > a {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  #header .navbar {
+    background-color: #6930c3;
+  }
+}
+
+/*
+    TEMPLATE BANNER
+*/
+#banner {
+  background-image: url(../../assets/backgroundimg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner .space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 14rem;
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+
+#banner .space .buttons > a {
+  margin-right: .7rem;
+  padding: .4rem 1.8rem;
+}
+
+#banner .space .buttons > a:hover {
+  background: white !important;
+}
+
+#banner .space .buttons > a:hover > span {
+  color: #343a40;
+}
+
+@media screen and (max-width: 992px) {
+  #banner .space {
+    padding-top: 10rem;
+    height: 700px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

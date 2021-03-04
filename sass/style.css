@@ -11191,6 +11191,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.left-border {
+  border-left: 8px solid #20c997;
+  padding-left: 1rem;
+}
+
 body {
   font-family: "inter", cursive;
 }
@@ -11257,5 +11262,14 @@ body {
     padding-top: 10rem;
     height: 700px;
   }
+}
+
+/*
+
+TECNOLOGY SECTION
+
+*/
+#tech {
+  padding: 3rem 0;
 }
 /*# sourceMappingURL=style.css.map */

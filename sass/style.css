@@ -11287,44 +11287,44 @@ body {
 TECNOLOGY SECTION
 
 */
-#tech, #security {
+#tech, #security, #favourite {
   padding: 3rem 0;
 }
 
-#tech .owl-carousel .item .item-title > a, #security .owl-carousel .item .item-title > a {
+#tech .owl-carousel .item .item-title > a, #security .owl-carousel .item .item-title > a, #favourite .owl-carousel .item .item-title > a {
   text-decoration: none;
   color: #343a40;
 }
 
-#tech .owl-carousel .item .item-title > .d-flex > img, #security .owl-carousel .item .item-title > .d-flex > img {
+#tech .owl-carousel .item .item-title > .d-flex > img, #security .owl-carousel .item .item-title > .d-flex > img, #favourite .owl-carousel .item .item-title > .d-flex > img {
   width: 30px;
   margin-right: .5rem;
 }
 
-#tech .owl-carousel .item .item-title > .d-flex > a, #tech .owl-carousel .item .item-title > .d-flex i, #tech .owl-carousel .item .item-title > .d-flex span, #security .owl-carousel .item .item-title > .d-flex > a, #security .owl-carousel .item .item-title > .d-flex i, #security .owl-carousel .item .item-title > .d-flex span {
+#tech .owl-carousel .item .item-title > .d-flex > a, #tech .owl-carousel .item .item-title > .d-flex i, #tech .owl-carousel .item .item-title > .d-flex span, #security .owl-carousel .item .item-title > .d-flex > a, #security .owl-carousel .item .item-title > .d-flex i, #security .owl-carousel .item .item-title > .d-flex span, #favourite .owl-carousel .item .item-title > .d-flex > a, #favourite .owl-carousel .item .item-title > .d-flex i, #favourite .owl-carousel .item .item-title > .d-flex span {
   padding: .2rem;
   text-decoration: none;
   font-size: .9rem;
 }
 
-#tech .owl-carousel .owl-nav, #security .owl-carousel .owl-nav {
+#tech .owl-carousel .owl-nav, #security .owl-carousel .owl-nav, #favourite .owl-carousel .owl-nav {
   margin-top: 2rem;
 }
 
-#tech .owl-carousel .owl-nav button:focus, #tech .owl-carousel .owl-nav button:hover, #security .owl-carousel .owl-nav button:focus, #security .owl-carousel .owl-nav button:hover {
+#tech .owl-carousel .owl-nav button:focus, #tech .owl-carousel .owl-nav button:hover, #security .owl-carousel .owl-nav button:focus, #security .owl-carousel .owl-nav button:hover, #favourite .owl-carousel .owl-nav button:focus, #favourite .owl-carousel .owl-nav button:hover {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: transparent;
 }
 
-#tech .owl-carousel .owl-nav button span, #security .owl-carousel .owl-nav button span {
+#tech .owl-carousel .owl-nav button span, #security .owl-carousel .owl-nav button span, #favourite .owl-carousel .owl-nav button span {
   background-color: #f8f9fa;
   padding: .4rem 3rem;
   border-radius: 3rem;
 }
 
-#tech .owl-carousel .owl-nav button span:hover, #security .owl-carousel .owl-nav button span:hover {
+#tech .owl-carousel .owl-nav button span:hover, #security .owl-carousel .owl-nav button span:hover, #favourite .owl-carousel .owl-nav button span:hover {
   background-color: #343a40;
 }
 
